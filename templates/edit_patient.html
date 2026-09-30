@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Patient</title>
+</head>
+
+<body>
+
+<h1>Edit Patient</h1>
+
+<form method="POST">
+
+    <label>Patient Name:</label><br>
+    <input type="text"
+           name="name"
+           value="{{ patient['name'] }}"
+           required>
+    <br><br>
+
+    <label>Age:</label><br>
+    <input type="number"
+           name="age"
+           value="{{ patient['age'] }}"
+           required>
+    <br><br>
+
+    <label>Gender:</label><br>
+    <select name="gender" required>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+    </select>
+    <br><br>
+
+    <label>Phone:</label><br>
+    <input type="text"
+           name="phone"
+           value="{{ patient['phone'] }}"
+           required>
+    <br><br>
+
+    <label>Disease:</label><br>
+    <input type="text"
+           name="disease"
+           value="{{ patient['disease'] }}"
+           required>
+    <br><br>
+
+    <button type="submit">Update Patient</button>
+
+</form>
+
+<br>
+
+<a href="/">Back to Home</a>
+
+</body>
+</html>
