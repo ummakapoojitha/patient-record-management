@@ -381,26 +381,3 @@ It can be used and modified for learning and academic projects.
 The Patient Record Management System is a beginner-friendly full-stack web application developed using Python Flask, HTML, CSS, and SQLite. It provides basic patient record management features such as adding, viewing, and editing patient information. The project demonstrates how frontend, backend, and database technologies work together to create a web application.
 
 
-## 🔒 .gitignore
-
-The following files should not be uploaded to GitHub:
-
-    patients.db
-    __pycache__/
-    *.pyc
-
-This is especially important because the database may contain patient information.
-
-Project Status
-
-**Status: Completed ✅**
-
-The basic Patient Record Management System is working with:
-
-- Frontend ✅
-- Backend ✅
-- Database ✅
-- Add Patient ✅
-- View Patient ✅
-- Edit Patient ✅
-- GitHub Ready ✅
